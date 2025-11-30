@@ -1,0 +1,123 @@
+==================================================
+  Welcome to the Hotel Reservation System
+==================================================
+
+==================================================
+       HOTEL RESERVATION SYSTEM MENU
+==================================================
+1. Search Available Rooms
+2. Book a Room
+3. View All Reservations
+4. View Booking Details
+5. Cancel Reservation
+6. Process Payment
+7. Add Guest
+8. View All Rooms
+9. Exit
+==================================================
+Enter your choice (1-9): 2
+
+==================================================
+              BOOK A ROOM
+==================================================
+
+Guest Information:
+1. Existing Guest
+2. New Guest
+Enter choice (1 or 2): 2
+
+Enter Guest Details:
+Name: RAJ NAINDINI 
+Email: naindini21@gmail.com
+Phone: 9632587414
+
+Guest added successfully!
+RAJ NAINDINI (ID: G1764486993618) | naindini21@gmail.com | 9632587414
+
+Available Rooms:
+----------------------------------------------------------------------
+1. Room 101 | STANDARD | $100.00/night | Capacity: 2 | Available
+2. Room 102 | STANDARD | $100.00/night | Capacity: 2 | Available
+3. Room 103 | STANDARD | $100.00/night | Capacity: 2 | Available
+4. Room 104 | STANDARD | $100.00/night | Capacity: 2 | Available
+5. Room 105 | STANDARD | $100.00/night | Capacity: 2 | Available
+6. Room 201 | DELUXE | $200.00/night | Capacity: 3 | Available
+7. Room 202 | DELUXE | $200.00/night | Capacity: 3 | Available
+8. Room 203 | DELUXE | $200.00/night | Capacity: 3 | Available
+9. Room 204 | DELUXE | $200.00/night | Capacity: 3 | Available
+10. Room 205 | DELUXE | $200.00/night | Capacity: 3 | Available
+11. Room 301 | SUITE | $350.00/night | Capacity: 4 | Available
+12. Room 302 | SUITE | $350.00/night | Capacity: 4 | Available
+13. Room 303 | SUITE | $350.00/night | Capacity: 4 | Available
+----------------------------------------------------------------------
+
+Select room number (1-13): 4
+Check-in date (yyyy-MM-dd): 2024-11-30
+Check-out date (yyyy-MM-dd): 2024-12-05
+
+==================================================
+  RESERVATION CREATED SUCCESSFULLY!
+==================================================
+Reservation ID: RES1764487036344
+Guest: RAJ NAINDINI
+Room: 104 (STANDARD)
+Check-in: 2024-11-30
+Check-out: 2024-12-05
+Total: $500.00
+Status: CONFIRMED
+Payment: Pending
+==================================================
+
+==================================================
+       HOTEL RESERVATION SYSTEM MENU
+==================================================
+1. Search Available Rooms
+2. Book a Room
+3. View All Reservations
+4. View Booking Details
+5. Cancel Reservation
+6. Process Payment
+7. Add Guest
+8. View All Rooms
+9. Exit
+==================================================
+Enter your choice (1-9): 6
+
+==================================================
+          PROCESS PAYMENT
+==================================================
+Enter Reservation ID: RES1764487036344
+
+--- Payment Details ---
+Total Amount: $500.00
+
+Payment Methods:
+1. Credit Card
+2. Debit Card
+3. Cash
+Select payment method (1-3): 3
+
+Processing payment...
+
+==================================================
+  PAYMENT SUCCESSFUL!
+==================================================
+Amount Paid: $500.00
+Payment Method: Cash
+Reservation Status: CONFIRMED
+==================================================
+
+==================================================
+       HOTEL RESERVATION SYSTEM MENU
+==================================================
+1. Search Available Rooms
+2. Book a Room
+3. View All Reservations
+4. View Booking Details
+5. Cancel Reservation
+6. Process Payment
+7. Add Guest
+8. View All Rooms
+9. Exit
+==================================================
+Enter your choice (1-9):
